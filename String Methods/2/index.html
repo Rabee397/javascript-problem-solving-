@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STRING-METHODS 2</title>
+</head>
+<body>
+    <h1> Write a JavaScript function to check whether a string is blank or not. </h1>
+
+    <script>
+        //first-way
+        let checker = (input)=>{
+            if(input === ""){
+                console.log("yes , it's blank");
+            }else{
+                console.log("no , it's not");
+            }
+        }
+
+        checker("");
+        checker("a");
+        checker("mona");
+
+        //second-way-by-length
+
+        let checkIt = (str)=>{
+            if(str.length === 0){
+                console.log("it's blank")
+            }else{
+                console.log("it's not blank")
+            }
+        }
+
+        checker("");
+        checker("a");
+        checker("mona");
+
+    </script>
+</body>
+</html>
